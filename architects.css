@@ -17,7 +17,9 @@
   color: #424242;
 }
 
-
+.text-primary {
+  color: #ff900e;
+}
 
 /* dark03*/
 .text-light-gray {
@@ -118,7 +120,30 @@ main>section {
 @media screen and (max-width: 576px) {
 
   .navbar,
-  .nav-link {
+  .nav-links,
+  .teams{
     flex-direction: column;
+  }
+  .banner img {
+    max-width: 100%;
+    
+  }
+
+.team-imge-container{
+  grid-template-columns:repeat(1, 1fr);
+}
+
+.our-features{
+    margin-left: 20px;
+}
+}
+
+/*medium size devices*/
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .teams{
+    flex-direction: column;
+  }
+  .our-features {
+    margin-left: 50px;
   }
 }
