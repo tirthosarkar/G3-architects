@@ -116,6 +116,26 @@ main > section {
   font-weight: 500;
 }
 
+
+/* some facts relatyed styles */
+
+.facts-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.fact-card{
+  border: 1px solid #ff900e;
+  width: 240px;
+  height: 240px;
+  border-radius: 8px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /* responsive media query */
 
 @media screen and (max-width: 576px) {
